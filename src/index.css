@@ -130,8 +130,6 @@ body {
 }
 
 .details_back_arrow {
-  /* width: 50px;
-  height: 50px; */
   cursor: pointer;
   display: inline;
   color: #ec4c8a;
@@ -157,5 +155,13 @@ body {
   .card img {
     width: 100%;
     max-width: 280px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .details_data {
+    /* display: block; */
+    flex-wrap: wrap;
+    gap: 15px;
   }
 }
