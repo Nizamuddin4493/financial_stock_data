@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import stock_image from './images/stock-market.jpg'
 
 const Details = () => (
   <>
     <div>
       <div className="detals">
-      <h3 className="details_back_arrow"> &#8617; Back</h3>
+      <Link to="/" className="router_link"><h3 className="details_back_arrow"> &#8617; Back</h3></Link>
         <h2>NasDaq</h2>
         <div className="details_data">
           <div>

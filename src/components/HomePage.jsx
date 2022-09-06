@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Routes } from 'react-router';
 import Categories from './Categories';
 import Details from './Details';
 import Header from './Header';
@@ -11,8 +12,12 @@ function HomePage() {
         <Header />
         <hr />
         <SearchForm />
+        <Routes>
+          <Route path='/' element={<Categories />} />
+          <Route path='/Details' element={<Details />} />
+        </Routes>
         {/* <Categories /> */}
-        <Details />
+        {/* <Details /> */}
       </div>
     </>
   )
