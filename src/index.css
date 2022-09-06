@@ -94,6 +94,52 @@ body {
 
 /* END Categories Style */
 
+/* -------------------------------------------- */
+
+/* Details Styles */
+.detals {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0 0 5px #000;
+}
+
+.details_info {
+  display: flex;
+  gap: 10px;
+}
+
+.detals h2 {
+  margin-top: 10px;
+}
+
+.detals img {
+  width: 100%;
+  max-width: 990px;
+  height: 100%;
+  max-height: 450px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 10px;
+}
+
+.details_data {
+  display: flex;
+  gap: 100px;
+  margin: 10px 0;
+}
+
+.details_back_arrow {
+  /* width: 50px;
+  height: 50px; */
+  cursor: pointer;
+  display: inline;
+  color: #ec4c8a;
+  border-bottom: 1px solid ;
+}
+
+/* Details Styles */
+
 @media only screen and (max-width: 600px) {
   .homePageDesign {
     height: calc(100vh - 50px);

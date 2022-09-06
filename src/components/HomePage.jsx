@@ -1,5 +1,6 @@
 import React from 'react';
 import Categories from './Categories';
+import Details from './Details';
 import Header from './Header';
 import SearchForm from './SearchForm';
 
@@ -10,7 +11,8 @@ function HomePage() {
         <Header />
         <hr />
         <SearchForm />
-        <Categories />
+        {/* <Categories /> */}
+        <Details />
       </div>
     </>
   )
