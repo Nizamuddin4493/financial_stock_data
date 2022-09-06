@@ -6,23 +6,24 @@
 
 @font-face {
   font-family: lato;
-  src : url(./fonts/Lato-Regular.ttf);
+  src: url(./fonts/Lato-Regular.ttf);
 }
 
 body {
   background-color: #ddd;
-  font-family: lato;
+  font-family: lato, sans-serif;
 }
 
 /* Header Styles */
 .header {
   width: 100%;
   color: #fff;
-  background-color: #EC4C8A;
+  background-color: #ec4c8a;
   margin-bottom: 10px;
   border-radius: 5px 5px 0 0;
   padding: 10px;
 }
+
 /* END Header Styles */
 
 /* -------------------------------------------- */
@@ -36,6 +37,7 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
+
 /* END Home Page Design */
 
 /* -------------------------------------------- */
@@ -43,7 +45,7 @@ body {
 /* Search Form Styles */
 .searchForm {
   margin: 10px auto;
-  background-color: #EC4C8A;
+  background-color: #ec4c8a;
 }
 
 .searchForm input {
@@ -55,6 +57,59 @@ body {
   border: none;
   border-radius: 3px;
   font-size: 18px;
-  font-family: lato;
+  font-family: lato, sans-serif;
 }
+
 /* Search Form Styles */
+
+/* ---------------------------------------------- */
+
+/* Categories Style */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  max-width: 1000px;
+  background-color: #ec4c8a;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #fff;
+  width: 300px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0 0 5px #000;
+}
+
+.card img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 0 0 5px 5px;
+  margin-top: 10px;
+}
+
+/* END Categories Style */
+
+@media only screen and (max-width: 600px) {
+  .homePageDesign {
+    height: calc(100vh - 50px);
+  }
+
+  .categories {
+    display: block;
+    padding: 10px;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 280px;
+  }
+}
