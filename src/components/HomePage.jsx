@@ -13,14 +13,12 @@ function HomePage() {
         <hr />
         <SearchForm />
         <Routes>
-          <Route path='/' element={<Categories />} />
-          <Route path='/Details' element={<Details />} />
+          <Route path="/" element={<Categories />} />
+          <Route path="/Details" element={<Details />} />
         </Routes>
-        {/* <Categories /> */}
-        {/* <Details /> */}
       </div>
     </>
-  )
+  );
 }
 
 export default HomePage;

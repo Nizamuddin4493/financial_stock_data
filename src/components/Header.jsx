@@ -6,6 +6,6 @@ const Header = () => (
       <h1>Financial Stock Data</h1>
     </div>
   </>
-)
+);
 
 export default Header;
