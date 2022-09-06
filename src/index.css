@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: lato;
+  src : url(./fonts/Lato-Regular.ttf);
+}
+
+body {
+  background-color: #ddd;
+  font-family: lato;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  color: #fff;
+  background-color: #EC4C8A;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+}
+/* END Header Styles */
+
+/* -------------------------------------------- */
+
+/* Home Page Design */
+.homePageDesign {
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* END Home Page Design */
+
+/* -------------------------------------------- */
+
+/* Search Form Styles */
+.searchForm {
+  margin: 10px auto;
+  background-color: #EC4C8A;
+}
+
+.searchForm input {
+  margin: 10px calc(100% - 70%);
+  width: 40%;
+  height: 35px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: lato;
+}
+/* Search Form Styles */

@@ -1,11 +1,14 @@
 import React from 'react';
-import '../styles/homePageDesign.css';
+import Header from './Header';
+import SearchForm from './SearchForm';
 
 function HomePage() {
   return (
     <>
       <div className="homePageDesign">
-        fgdfgdfgfdgfdg
+        <Header />
+        <hr />
+        <SearchForm />
       </div>
     </>
   )
