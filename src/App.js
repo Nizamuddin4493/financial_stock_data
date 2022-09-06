@@ -1,7 +1,9 @@
+import HomePage from './components/HomePage';
+
 function App() {
   return (
     <>
-      <h1>Salam Nizam.</h1>
+      <HomePage />
     </>
   );
 }
