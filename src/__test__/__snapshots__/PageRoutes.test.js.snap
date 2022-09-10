@@ -170,7 +170,7 @@ Object {
                   "nodeType": "host",
                   "props": Object {
                     "children": <h1>
-                      Financial Stock Data
+                      Financial Stock and Coins Data
                     </h1>,
                     "className": "header",
                   },
@@ -179,10 +179,10 @@ Object {
                       "instance": null,
                       "nodeType": "host",
                       "props": Object {
-                        "children": "Financial Stock Data",
+                        "children": "Financial Stock and Coins Data",
                       },
                       "rendered": Array [
-                        "Financial Stock Data",
+                        "Financial Stock and Coins Data",
                       ],
                       "type": "h1",
                     },
