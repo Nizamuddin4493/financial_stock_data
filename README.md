@@ -6,7 +6,7 @@
 In this web application, I get information about the companies listed in stock exchange. It is build with React/Redux and fetch data using API.
 
 # Live Demo & Video
-[Financial Stock Data App](www.google.com) || [Financial Stock Data Video](www.google.com)
+[Financial Stock & Coins Data App](https://magical-liger-fcf655.netlify.app/) || [Financial Stock & Coins Data Video](https://www.loom.com/share/f87adc1df1614fe4af91d71ae858d7b5)
 
 
 ## Setup
