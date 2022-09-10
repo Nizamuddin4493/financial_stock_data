@@ -2,8 +2,8 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import store from '../redux/configureStore';
-import HomePage from './../components/HomePage';
-import Details from './../components/Details';
+import HomePage from '../components/HomePage';
+import Details from '../components/Details';
 
 const HomeProvider = () => (
   <Provider store={store}>

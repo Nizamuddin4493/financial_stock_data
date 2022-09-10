@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import store from '../redux/configureStore';
 import Details from '../components/Details';
 
-const detailsProvider = () => (
+const DetailsProvider = () => (
   <Provider store={store}>
     <Details />
   </Provider>
@@ -11,7 +11,7 @@ const detailsProvider = () => (
 
 describe('renders properly the Details page', () => {
   it('renders correctly', () => {
-    const component = renderer.create(<detailsProvider />).toJSON();
+    const component = renderer.create(<DetailsProvider />).toJSON();
     expect(component).toMatchSnapshot();
   });
 });
