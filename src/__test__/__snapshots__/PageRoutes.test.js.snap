@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI is rendered properly renders the details page of companies properly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <Details />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <Details />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <Details />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`UI is rendered properly renders the home page 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <HomePage />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <HomePage />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <HomePage />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Header />,
+                <hr />,
+                <SearchForm />,
+                <Routes>
+                  <Route
+                    element={<Categories />}
+                    path="/"
+                  />
+                  <Route
+                    element={<Details />}
+                    path="/:id"
+                  />
+                </Routes>,
+              ],
+              "className": "homePageDesign",
+            },
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "nodeType": "component",
+                "props": Object {},
+                "rendered": Object {
+                  "instance": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <h1>
+                      Financial Stock Data
+                    </h1>,
+                    "className": "header",
+                  },
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Financial Stock Data",
+                      },
+                      "rendered": Array [
+                        "Financial Stock Data",
+                      ],
+                      "type": "h1",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {},
+                "rendered": Array [],
+                "type": "hr",
+              },
+              Object {
+                "instance": null,
+                "nodeType": "component",
+                "props": Object {},
+                "rendered": Object {
+                  "instance": null,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <form
+                      className="searchForm"
+                    >
+                      <input
+                        placeholder="Search..."
+                        type="text"
+                      />
+                    </form>,
+                  },
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <input
+                          placeholder="Search..."
+                          type="text"
+                        />,
+                        "className": "searchForm",
+                      },
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "nodeType": "host",
+                          "props": Object {
+                            "placeholder": "Search...",
+                            "type": "text",
+                          },
+                          "rendered": Array [],
+                          "type": "input",
+                        },
+                      ],
+                      "type": "form",
+                    },
+                  ],
+                  "type": "div",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "nodeType": "component",
+                "props": Object {
+                  "children": Array [
+                    <Route
+                      element={<Categories />}
+                      path="/"
+                    />,
+                    <Route
+                      element={<Details />}
+                      path="/:id"
+                    />,
+                  ],
+                },
+                "rendered": Object {
+                  "instance": null,
+                  "nodeType": "component",
+                  "props": Object {},
+                  "rendered": Object {
+                    "instance": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [],
+                      "className": "categories",
+                    },
+                    "rendered": Array [],
+                    "type": "div",
+                  },
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
