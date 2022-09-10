@@ -12,8 +12,8 @@ In this web application, I get information about the companies listed in stock e
 ## Setup
 ``` bash
 Clone this repository
-$ git@github.com:Nizamuddin4493/react_redux_group_project.git
-$ cd react_redux_group_project
+$ git@github.com:Nizamuddin4493/financial_stock_data.git
+$ cd financial_stock_data
 ```
 ## Run project
 ``` bash

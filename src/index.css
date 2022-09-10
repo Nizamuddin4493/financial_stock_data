@@ -68,8 +68,8 @@ body {
 .categories {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
-  max-width: 1000px;
+  gap: 15px;
+  max-width: 1200px;
   background-color: #ec4c8a;
   border-radius: 0 0 10px 10px;
   cursor: pointer;
@@ -78,7 +78,7 @@ body {
 .card {
   background-color: #fff;
   color: #000;
-  width: 300px;
+  width: 290px;
   border-radius: 5px;
   margin: 10px;
   padding: 10px 10px 5px 10px;
@@ -126,7 +126,7 @@ body {
 
 .details_data {
   display: flex;
-  gap: 100px;
+  gap: 70px;
   margin: 10px 0;
 }
 

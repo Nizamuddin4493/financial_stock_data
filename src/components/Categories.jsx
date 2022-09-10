@@ -1,32 +1,39 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import stock_image from './images/stock-market.jpg';
+import React, { useEffect } from 'react';
+import { useSelector } from 'react-redux';
+import { NavLink } from 'react-router-dom';
+import { categoriesThunk } from '../redux/categories/categories';
 
-const Categories = () => (
-  <>
-    <div className="categories">
-      <Link to="/Details" className="router_link">
-        <div className="card">
-          <h3>NasDaq</h3>
-          <h4>TotalInvested: 1275721002015</h4>
-          <p>Date: 6/9/2022</p>
-          <img src={ stock_image } alt="Share Exchange" />
-        </div>
-      </Link>
-      <div className="card">
-        <h3>NasDaq</h3>
-        <h4>TotalInvested: 1275721002015</h4>
-        <p>Date: 6/9/2022</p>
-        <img src={ stock_image } alt="Share Exchange" />
+const Categories = () => {
+  const categories = useSelector((state) => state.categoriesReducer);
+
+  useEffect(() => {
+    categoriesThunk();
+  }, [categories]);
+
+  return (
+    <>
+      <div className="categories">
+        {categories.map((data) => (
+          <NavLink to={`/${data.id}`} className="router_link" key={data.id}>
+            <div className="card" key={data.id}>
+              <h3>{data.id}</h3>
+              <h4>
+                Name:
+                {' '}
+                {data.name}
+              </h4>
+              <p>
+                Current Price:
+                {' '}
+                {data.currentPrice}
+              </p>
+              <img src={data.image} alt="Share Exchange" />
+            </div>
+          </NavLink>
+        ))}
       </div>
-      <div className="card">
-        <h3>NasDaq</h3>
-        <h4>TotalInvested: 1275721002015</h4>
-        <p>Date: 6/9/2022</p>
-        <img src={ stock_image } alt="Share Exchange" />
-      </div>
-    </div>
-  </>
-)
+    </>
+  );
+};
 
 export default Categories;
