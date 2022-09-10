@@ -35,7 +35,6 @@ body {
   margin: 50px auto;
   padding: 5px;
   border-radius: 10px;
-  overflow: hidden;
 }
 
 /* END Home Page Design */
@@ -145,7 +144,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .homePageDesign {
-    height: calc(100vh - 50px);
+    margin: 0;
   }
 
   .categories {
@@ -160,5 +159,26 @@ body {
   .card img {
     width: 100%;
     max-width: 280px;
+  }
+
+  .details_data {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .card {
+    margin: 5px;
+    max-width: 220px;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .searchForm input {
+    margin: 10px calc(100% - 90%);
+    width: 75%;
   }
 }
