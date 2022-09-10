@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: lato;
+  src: url(./fonts/Lato-Regular.ttf);
+}
+
+body {
+  background-color: #ddd;
+  font-family: lato, sans-serif;
+}
+
+/* Header Styles */
+.header {
+  width: 100%;
+  color: #fff;
+  background-color: #ec4c8a;
+  margin-bottom: 10px;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+}
+
+/* END Header Styles */
+
+/* -------------------------------------------- */
+
+/* Home Page Design */
+.homePageDesign {
+  background-color: #fff;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+/* END Home Page Design */
+
+/* -------------------------------------------- */
+
+/* Search Form Styles */
+.searchForm {
+  margin: 10px auto;
+  background-color: #ec4c8a;
+}
+
+.searchForm input {
+  margin: 10px calc(100% - 70%);
+  width: 40%;
+  height: 35px;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: lato, sans-serif;
+}
+
+/* Search Form Styles */
+
+/* ---------------------------------------------- */
+
+/* Categories Style */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  max-width: 1200px;
+  background-color: #ec4c8a;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #fff;
+  color: #000;
+  width: 290px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0 0 5px #000;
+}
+
+.card img {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  border-radius: 0 0 5px 5px;
+  margin-top: 10px;
+}
+
+/* END Categories Style */
+
+/* -------------------------------------------- */
+
+/* Details Styles */
+.detals {
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px 5px 10px;
+  box-shadow: 0 0 5px #000;
+}
+
+.details_info {
+  display: flex;
+  gap: 10px;
+}
+
+.detals h2 {
+  margin-top: 10px;
+}
+
+.detals img {
+  width: 100%;
+  max-width: 990px;
+  height: 100%;
+  max-height: 450px;
+  border-radius: 0 0 5px 5px;
+  margin-top: 10px;
+}
+
+.details_data {
+  display: flex;
+  gap: 70px;
+  margin: 10px 0;
+}
+
+.details_back_arrow {
+  cursor: pointer;
+  display: inline;
+  color: #ec4c8a;
+  border-bottom: 1px solid;
+}
+
+/* END Details Styles */
+
+.router_link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .homePageDesign {
+    margin: 0;
+  }
+
+  .categories {
+    display: block;
+    padding: 10px;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .details_data {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .card {
+    margin: 5px;
+    max-width: 220px;
+  }
+
+  .card img {
+    width: 100%;
+    max-width: 180px;
+  }
+
+  .searchForm input {
+    margin: 10px calc(100% - 90%);
+    width: 75%;
+  }
+}
