@@ -14,7 +14,7 @@ function HomePage() {
         <SearchForm />
         <Routes>
           <Route path="/" element={<Categories />} />
-          <Route path="/Details" element={<Details />} />
+          <Route path="/:id" element={<Details />} />
         </Routes>
       </div>
     </>
