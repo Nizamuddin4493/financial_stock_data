@@ -41,7 +41,7 @@ $ npm test
 
 - GitHub: [@Nizamudin4493](https://github.com/Nizamuddin4493)
 - Twitter: [@Nizamudin4493](https://twitter.com/Nizamuddin4493)
-- LinkedIn: [nizamuddin4493](https://linkedin.com/in/nizam4493)
+- LinkedIn: [nizamuddin4493](https://linkedin.com/in/nzm4493)
 
 # Design
 - Original design idea by Nelson Sakwa on Behance.
